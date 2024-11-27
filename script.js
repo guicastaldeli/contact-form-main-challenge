@@ -142,11 +142,7 @@
                     if(er) {
                         if(!document.getElementById('rerr-')) {
                             const rErr = document.createElement('label');
-
-                            er.forEach(rs => {
-                                rs.classList.add('test')
-                            })
-
+                            
                             rErr.className = 'e-m-';
                             rErr.id = 'rerr-';
                             rErr.htmlFor = 'c-qt--';
