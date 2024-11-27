@@ -56,8 +56,13 @@ html, body {
   height: 2.5rem;
   border: 0.09rem solid #A6AFAE;
   border-radius: 0.4rem;
+  /* hover */
+  /* */
   /* focus */
   /* */
+}
+.--container form input[type=text]:hover, .--container form [type=email]:hover, .--container form [type=submit]:hover, .--container form textarea:hover {
+  border: 0.09rem solid #0C7D69;
 }
 .--container form input[type=text]:focus, .--container form [type=email]:focus, .--container form [type=submit]:focus, .--container form textarea:focus {
   outline: none;

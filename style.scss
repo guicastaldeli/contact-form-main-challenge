@@ -53,6 +53,12 @@ $lgFont: 'Karla ExtraLight';
                         border: 0.09rem solid #A6AFAE;
                         border-radius: 0.4rem;
 
+                        /* hover */
+                            &:hover {
+                                border: 0.09rem solid #0C7D69;
+                            }
+                        /* */
+
                         /* focus */
                             &:focus {
                                 outline: none;
