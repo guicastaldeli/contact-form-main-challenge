@@ -90,6 +90,9 @@ html, body {
 .--container form #c-fl-- label {
   display: block;
 }
+.--container form .test {
+  background-color: #E0F1E7;
+}
 .--container form #c-qt-- {
   top: -0.5rem;
   position: relative;
